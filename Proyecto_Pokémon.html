@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html  lang="ES">
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+   <meta name="viewport"  content="width=device-width,  initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>MI POKEDEX</title>
+  </head>
+  <body>
+    <style>
+        body{
+          font-family: verdana;
+          margin: 0;
+        }
+       header{
+          background-color: blueviolet;
+          color: aqua;
+          padding: 100x 10%;
+       }
+       header{
+          display: inline-block;
+          margin-left: 30px;
+       }
+       #logo{
+         width: 60px;
+       }
+       nav{
+        margin: 10x 10%;
+       }
+       nav{
+        padding: 0  10px;
+       }
+       #pokedex{
+        width: 750px;
+        margin: 50px auto;
+      
+       }
+       #left{
+        width: 250px;
+        height: 300px;
+        float: left;
+        background-color: rgba(13, 228, 42, 0.527);
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+       }
+       #left > .display > img {
+         margin-left: 15px;
+         height: 100%;
+       }
+       #dpad{
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+        margin-left: 20px;
+        display: inline-block;
+       }
+       #dpad-top, #dpad-bottom {
+        width: 20px;
+        height:20px ;
+        margin-left: 20px;
+        background-color: #222222;
+       }
+       #dpad-horizontal {
+        width: 60px;
+        height: 20px;
+        background-color: #222222;
+       }
+       #btn-circle {
+        width: 50px;
+        height: 50px;
+        margin-left: 95px;
+        border-style: solid;
+        border-color: blue;
+        border-radius: 25px;
+        background-color: purple;
+        display: inline-block;
+       }
+      
+       #right{
+        width: 250px;
+        height: 250px;
+        margin-top: 50px;
+        background-color: rgba(13, 228, 42, 0.527);
+        border-left-color: rgb(8, 105, 29) ;
+        border-left-style: solid;
+        border-left-width: 3px;
+        float: left;
+        border-bottom-right-radius: 30px;
+       }
+       .display {
+        border-color: #494949;
+        border-style: solid;
+        border-radius: 15px;
+        border-width:  5px;
+       }
+       #left > .display {
+        width: 180px;
+        height: 150px;
+        margin-left: 35px;
+        margin-top: 40px;
+        background-color: white;
+     
+       }
+       #right > .display {
+        width: 180px;
+        height: 150px;
+        margin-left: 35px;
+        margin-top: 20px;
+        background-color: blueviolet;
+        font-size: 12px;
+       }
+       #pad {
+        width: 148px;
+        height: 65px;
+        margin-left: 60px;
+        margin-top: 15px;
+       }
+       #pad > .btn {
+        width: 25px;
+        height: 25px;
+        background-color: blue;
+        display: inline-block;
+        border-style: solid ;
+        border-color: #181a81;
+        border-width: 2px;
+        border-radius: 3px;
+       }
+       u1 {
+         margin: 0;
+         padding: 0;
+       }
+       li {
+        list-style-type: none;
+       }
+       li > p {
+        margin: 0 5px;
+       }
+    </style>
+    
+    
+    <header>
+         
+          <img id="logo" src="IMG/LOGO.jpg" alt="logo">
+          <h1>MI POKEDEX</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Acerca</a>
+    </nav>
+    <hr>
+    <main>
+        <div id="pokedex">
+            <div id="left">
+                <div class="display">
+                    <img id="IMG/pikachu.jpeg" src="pokedex">
+                </div>
+                <div id="dpad"></div>
+                <div id="dpad-top"></div>
+                <div id="dpad-horizontal" ></div>
+                <div id="dpad-bottom"></div>
+            <div id="btn-circle"></div>
+                  
+        <div>
+          <u1>
+            <ringht>
+            <li>
+              <p><b>Nombre:</b>Pikachu</p>
+            </li>
+            <li>
+              <p><b>Tipo:</b>Electrico</p>
+            </li>
+            <li>
+              <p><b>Altura:</b>0.4m</p>
+            </li>
+            <li>
+              <p><b>Peso:</b>10kg</p>
+            </li>
+            <li>
+              <p><b>Descripcion:Pikachu es de color amarillo y su poder es la electricidad</b></p>
+            </li>
+          </ringht>
+          </u1>
+        </div>
+        <div id="pad">
+          <div class="btn"></div>
+          <div class="btn"></div>
+        </div>
+    </main>
+  </body>
+</html>
