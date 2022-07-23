@@ -148,7 +148,7 @@
            <div class="display">
               <img id="pkmn-img" src="assets/pikachu.jpeg" alt="pokemon">
            </div>
-           <div id="dpad">
+           <div id="dpad" onclick="buscar()">
             <div id="dpad-top"></div>
             <div id="dpad-horizontal"></div>
             <div id="dpad-bottom"></div>
@@ -159,20 +159,20 @@
             <div class="display">
               <ul>
                 <li>
-                  <p><b>Nombre: </b>Pikachu</p>
+                  <p id="name"><b>Nombre: </b>Pikachu</p>
                 </li>
               </li>
               <li>
-                <p><b>Tipo:</b>Electrico</p>
+                <p id="type"><b>Tipo:</b>Electrico</p>
               </li>
               <li>
-                <p><b>Altura:</b>0.4m</p>
+                <p id="height"><b>Altura:</b>0.4m</p>
               </li>
               <li>
-                <p><b>Peso:</b>10kg</p>
+                <p id="weight"><b>Peso:</b>10kg</p>
               </li>
               <li>
-                <p><b>Descripcion:Pikachu es de color amarillo y su poder es la electricidad</b></p>
+                <p id="des"><b>Descripcion:Pikachu es de color amarillo y su poder es la electricidad</b></p>
               </li>
               </ul>
             </div>
@@ -188,6 +188,10 @@
             </div>
           </div>
        </div>
-   </main>
+   </main>  
+    <script type="text/javascript" src="js/ejem_API_poke.js"></script>
+    <script>
+      buscar();
+    </script>
   </body>
 </html>
